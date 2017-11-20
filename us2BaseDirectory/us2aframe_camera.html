@@ -1,0 +1,29 @@
+<!---------------->
+
+
+   </a-assets>
+
+<!-- Camera and cursor are outside of the VRSystem so that they are not affected by a global rotation -->
+   <a-entity camera look-controls>
+      <a-cursor id="cursor" color="springgreen"
+         animation__click="property: scale; startEvents: click; from: 0.1 0.1 0.1; to: 1 1 1; dur: 150"
+         animation__fusing="property: fusing; startEvents: fusing; from: 1 1 1; to: 0.1 0.1 0.1; dur: 1500"
+         event-set__1="_event: mouseenter; color: yellow"
+         event-set__2="_event: mouseleave; color: springgreen"
+         fuse="true"
+         raycaster="objects: .link">
+      </a-cursor>
+   </a-entity>
+
+   <a-entity id="light" light="type: ambient; color: #FFF"></a-entity>
+   <a-sky id="wrap" radius="250" material="color: #000"></a-sky>
+
+
+<!-- MENU ITEMS --->
+<!-- Modify rotation values to adjust location of the menu -->
+<a-entity rotation="0 0 0">
+   <a-entity template="src: #link" data-target="#links" data-thumb="#Menu" position="0.0 0.3 -4" scale="0.3 0.3 0.3" rotation="0 0 0"></a-entity>
+   <a-entity id="links" visible="false">
+<!--- layout="type: box; columns: 3; margin: 1.2" position="0 -0.3 -4" scale="0.3 0.3 0.3" rotation="0 0 0" -->
+<!-- LINKS GO HERE --->
+
