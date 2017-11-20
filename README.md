@@ -13,7 +13,7 @@ The Quickstart versions works on Linux and MacOSX operating systems.  It require
 1. Download the contents of the allskyVR repository
 2. Expand the zip file and move to the directory of your choice
 3. Change into the allskyVR directory and execute the deploy script from the command line: <tt>deploy.csh</tt>
-4. Create the sample VR environment
+4. Create the sample VR environment: <tt>allsky -i exoplanets.csv -f format.txt</tt>
 5. Transfer the export directory, <tt>VR-allsky</tt>, to a web server
 6. Open your web browser, navigate to the export directory, and view <tt>index.html</tt>
 
