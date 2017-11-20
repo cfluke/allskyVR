@@ -26,7 +26,7 @@ Directory VR-allsky (or user-define VR-outputdir) containing all relevant assets
 
 # Fully Customisable
 
-Requires installation of <a href="https://github.com/mivp/s2plot">S2PLOT</a> (Version 3.4.0 or higher) and <a href="http://www.imagemagick.org">ImageMagick</a>, along with envrionment variables.
+Requires installation of <a href="https://github.com/mivp/s2plot">S2PLOT</a> (Version 3.4.0 or higher) and <a href="http://www.imagemagick.org">ImageMagick</a>, FreeType font libraries, LaTeX, along with setting envrionment variables.
 
 Manifest
 - templateSpherical.c   Template C source code for reading and display all sky catalogue data
