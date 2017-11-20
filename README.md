@@ -41,4 +41,4 @@ Each celestial object is defined on a single line with the format:
 
 # Troubleshooting
 
-- Can't navigate? You may need to active WebGL in your browser.
+- Can't navigate? You may need to active WebGL in your browser.  For information on supported browsers see: https://get.webgl.org/get-a-webgl-implementation/
