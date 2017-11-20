@@ -71,5 +71,8 @@ mv ${oname}.tar ${oname}
 cd ${oname}
 
 
-# Edit this out on Linux system
-open index.html
+if (`uname` == "Darwin") then
+   open -a firefox index.html
+else
+   echo "Navigate to ${bd} and open index.html"
+endif
