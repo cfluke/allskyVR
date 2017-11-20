@@ -38,7 +38,7 @@ endif
 
 set thisdir=`pwd`
 
-if ($thisdir == $S2PATH) then
+if ("$thisdir" == $S2PATH) then
   echo "You must NOT be in directory ${S2PATH} to build your own programs."
   exit(-1);
 endif
