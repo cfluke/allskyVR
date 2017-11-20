@@ -37,6 +37,7 @@ The <tt>allskyVR</tt> source code is written in C.  The preferred starting point
 Before executing, set the following two <tt>s2plot</tt> environment variables to the same value (example uses tcsh <tt>setenv</tt> commands).  Choose a pixel size that is as large as possible for your display:
 
 <tt>setenv S2PLOT_WIDTH 800</tt>
+
 <tt>setenv S2PLOT_HEIGHT 800</tt>
 
 
