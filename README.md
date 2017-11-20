@@ -9,8 +9,8 @@ The software requires a compatible smart phone and Google cardboard viewer or hi
 To see an example in action: <a href="https://astronomy.swin.edu.au/~cfluke/vr/webundle/" target=_NEW>link</a>
 
 - <b>Navigation:</b> turn your head to see the celestial sphere around you.
-- <b>Menu:</b> look for the Menu icon, line up the green circluar target, hold steady and the menu will expand.
-- <b>Selection:</b> to toggle visibility of a data category or the celestial coordinate system, line-up the reticule and hold steady.
+- <b>Menu:</b> look for the Menu icon, line up the green circular target, hold your gaze steady and the menu will expand.
+- <b>Selection:</b> to toggle visibility of a data category or the celestial coordinate system, line-up the reticule on the menu item and hold your gaze steady.
 
 For more information, please see the article: 
 Fluke, C.J., Barnes, D.G., in prep, <i>Immersive virtual reality experiences for all-sky data</i>
@@ -27,6 +27,18 @@ The Quickstart versions works on Linux and MacOSX operating systems.  It require
 6. Open your web browser, navigate to the export directory, and view <tt>index.html</tt>
 
 You are now ready to explore your all-sky data with your personal head-mounted display.
+
+# Fully Customisable
+
+The Fully Customisable version requires a working installation of <a href="https://github.com/mivp/s2plot" target=_NEW>s2plot</a> (Version 3.4.0 or higher).  Please see the <tt>s2plot</tt> repository for installation notes, including the required environment variables.  
+
+The <tt>allskyVR</tt> source code is written in C.  The preferred starting point is to modify and use the <tt>templateSpherical.c</tt> code. 
+
+Before executing, set the following two <tt>s2plot</tt> environment variables to the same value (example uses tcsh <tt>setenv</tt> commands).  Choose a pixel size that is as large as possible for your display:
+
+<tt>setenv S2PLOT_WIDTH 800</tt>
+<tt>setenv S2PLOT_HEIGHT 800</tt>
+
 
 # Creating your own data file
 
