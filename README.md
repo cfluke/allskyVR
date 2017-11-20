@@ -10,12 +10,12 @@ Requires a compatible smart phone and Google cardboard viewer or high-end consum
 
 The Quickstart versions works on Linux and MacOSX operating systems.  It requires a C compiler (gcc or cc).
 
-1. Download the tarfile
-2. Expand the tarfile and move to the directory of your choice
-3. Change into the allskyVR directory and execute the deploy script
+1. Download the contents of the allskyVR repository
+2. Expand the zip file and move to the directory of your choice
+3. Change into the allskyVR directory and execute the deploy script from the command line: <tt>deploy.csh</tt>
 4. Create the sample VR environment
-5. Transfer the export directory, <i>VR-allsky</i>, to a web server
-6. Open your web browser, navigate to the export directory, and load *index.html*
+5. Transfer the export directory, <tt>VR-allsky</tt>, to a web server
+6. Open your web browser, navigate to the export directory, and view <tt>index.html</tt>
 
 You are now ready to explore your all-sky data with your personal head-mounted display.
 
