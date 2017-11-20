@@ -1,3 +1,5 @@
+#! /bin/csh -f
+
 # ************************************************************************
 #  allskyVRmaker.csh                                        November 2017
 #
@@ -15,7 +17,6 @@
 #  an express grant of patent rights.         
 # ***************************************************************************
 
-#! /bin/csh -f
 
 # A-Frame base name
 set af="us2aframe"
