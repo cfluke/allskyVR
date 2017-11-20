@@ -7,9 +7,9 @@ Requires a compatible smart phone and Google cardboard viewer or high-end consum
 
 To see an example in action: <a href="http://astronomy.swin.edu.au/~cfluke/vr/webundle/" target=_NEW>link</a>
 
-<b>Navigation:</b> turn your head to see the celestial sphere around you
-<b>Menu:</b> look for the Menu icon, line up the green circluar target, hold steady and the menu will expand.
-<b>Selection:</b> to toggle visibility of a data category or the celestial coordinate system, line-up the reticule and hold steady.
+- <b>Navigation:</b> turn your head to see the celestial sphere around you.
+- <b>Menu:</b> look for the Menu icon, line up the green circluar target, hold steady and the menu will expand.
+- <b>Selection:</b> to toggle visibility of a data category or the celestial coordinate system, line-up the reticule and hold steady.
 
 # Quickstart
 
