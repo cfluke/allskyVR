@@ -1,3 +1,5 @@
+#! /bin/csh -f
+
 # ************************************************************************
 #  deploy.csh                                               November 2017   
 #                                                          
@@ -19,10 +21,6 @@
 #  Copyright and license notices must be preserved. Contributors provide 
 #  an express grant of patent rights.         
 # ***************************************************************************
-
-
-
-#! /bin/csh -f
 
 # Compile the source code - tested with cc 
 
