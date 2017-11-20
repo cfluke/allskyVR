@@ -60,11 +60,11 @@ Each celestial object is defined on a single line with the format:
 
 The format file sets the colours that will be assigned to the different category index values.   The text file format, one item per line, is:
 
-    <tt>CAT=R,G,B,Label</tt>
+    CAT=R,G,B,Label
     
- Where R,G,B are integer red, green, and blue colour index values in the range [0...255], and <tt>Label</tt> is a short text-only label to appear in the A-Frame menu item.   It is necessary to avoid spaces and some symbols that have special meanings in LaTeX (e.g. $ and _ ).  The Label is ignored in Quickstart mode - customisation can be performed by creating relevant textures in appropriate graphics package.
+R,G,B are integer red, green, and blue colour index values in the range [0...255], and <tt>Label</tt> is a short text-only label to appear in the A-Frame menu item.   It is necessary to avoid spaces and some symbols that have special meanings in LaTeX (e.g. $ and _ ).  The Label is ignored in Quickstart mode - customisation can be performed by creating relevant textures in appropriate graphics package.
  
- For best visual quality, we recommended the use of colour choosing resources such as the <a href="http://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3">ColorBrewer 2.0</a>.
+For best visual quality, we recommended the use of colour choosing resources such as the <a href="http://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3">ColorBrewer 2.0</a>.
 
 # Troubleshooting
 
