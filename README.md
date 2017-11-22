@@ -1,6 +1,6 @@
 # allskyVR
 
-<i><font color=blue>Immersive virtual reality experiences for all-sky astronomical data</font></i>
+<i>Immersive virtual reality experiences for all-sky astronomical data</i>
 
 Made with s2plot and A-Frame WebVR, <tt>allskyVR</tt> allows astronomers to immerse themselves in all-sky data.   
 
