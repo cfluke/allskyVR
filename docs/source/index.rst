@@ -15,8 +15,9 @@ Contents
 ========
 .. toctree::
    :maxdepth: 2
-   welcome
+
    license
+   welcome
    help
 
 
