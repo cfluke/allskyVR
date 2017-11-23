@@ -1,3 +1,0 @@
-# What goes here?
-
-Let me tell you...
