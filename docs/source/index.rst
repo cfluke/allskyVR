@@ -6,7 +6,7 @@ Another simple header
 
 Here is some text explaining what to do
 
-	print 'hello'
+    print 'hello'
 
 Guide
 ^^^^^
