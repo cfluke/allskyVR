@@ -75,7 +75,7 @@ The format file sets the colours that will be assigned to the different category
     
 R,G,B are integer red, green, and blue colour index values in the range [0...255], and <tt>Label</tt> is a short text-only label to appear in the A-Frame menu item.   It is necessary to avoid spaces and some symbols that have special meanings in LaTeX (e.g. $ and _ ).  The Label is ignored in Quickstart mode - customisation can be performed by creating relevant textures in appropriate graphics package.
  
-For best visual quality, we recommended the use of colour choosing resources such as the ColorBrewer_ http://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3"
+For best visual quality, we recommended the use of colour choosing resources such as the `ColorBrewer <http://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3">`_.
 
 Troubleshooting
 ^^^^^^^^^^^^^^^
