@@ -3,7 +3,7 @@ Getting started
 Immersive virtual reality experiences for all-sky astronomical data.
 
 To see an example in action:
-- Using a WebGL compatible browswer, navigate to <a href="https://astronomy.swin.edu.au/~cfluke/vr/webundle/" target=_NEW>link</a> on your smartphone
+- Using a WebGL compatible browswer, navigate to https://astronomy.swin.edu.au/~cfluke/vr/webundle/ on your smartphone
 - Tap the Google Cardboard icon in the lower right of the screen
 - Place your smartphone into a Google Cardboard viewer
 - Navigation: turn your head to see the celestial sphere around you.
