@@ -52,7 +52,8 @@ Build and execute the *templateSpherical.c* example code:
     
     templateSpherical -i exoplanets.csv -f format.txt
     
- 
+At the Graphics device prompt enter */S2MONO*<enter> then press **<Shift>-<V>** to commence the VR asset export.  
+
 
 
 Creating your own data file
