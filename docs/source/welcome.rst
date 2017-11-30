@@ -37,11 +37,13 @@ The *allskyVR* source code is written in C.  The preferred starting point is to 
 Before executing, set the following two *S2PLOT* environment variables to the same value (the example uses tcsh *setenv* commands).  Choose a pixel size that is as large as possible for your display:
 
     setenv S2PLOT_WIDTH 800
+    
     setenv S2PLOT_HEIGHT 800
     
 Build and execute the *templateSpherical.c* example code:
 
     us2build.csh templateSpherical
+    
     templateSpherical -i exoplanets.csv -f format.txt
     
  
@@ -57,10 +59,11 @@ Each celestial object is defined on a single line with the format:
 
     RA,Dec,Radius,Category,Scale 
 
-  - Celestial coordinates are in decimal degrees
-  - For an all-sky view set the Radius to 1
-  - Assign a category index number in the range [1..10]
-  - Provide the relative scale factor, using value of 1 if you are not sure what to choose!
+* Celestial coordinates are in decimal degrees
+* For an all-sky view set the Radius to 1
+* Assign a category index number in the range [1..10]
+* Provide the relative scale factor, using value of 1 if you are not sure what to choose!
+
 2. Create your immersive environment: allsky -i yourdata.csv -f format.txt
 
 Creating your own format file
@@ -72,10 +75,10 @@ The format file sets the colours that will be assigned to the different category
     
 R,G,B are integer red, green, and blue colour index values in the range [0...255], and <tt>Label</tt> is a short text-only label to appear in the A-Frame menu item.   It is necessary to avoid spaces and some symbols that have special meanings in LaTeX (e.g. $ and _ ).  The Label is ignored in Quickstart mode - customisation can be performed by creating relevant textures in appropriate graphics package.
  
-For best visual quality, we recommended the use of colour choosing resources such as the <a href="http://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3">ColorBrewer 2.0</a>.
+For best visual quality, we recommended the use of colour choosing resources such as the ColorBrewer_ http://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3"
 
 Troubleshooting
 ^^^^^^^^^^^^^^^
 
-- Can't navigate? You may need to active WebGL in your browser.  For information on supported browsers see: https://get.webgl.org/get-a-webgl-implementation/
+* Can't navigate? You may need to active WebGL in your browser.  For information on supported browsers see: https://get.webgl.org/get-a-webgl-implementation/
 
