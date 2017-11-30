@@ -1,9 +1,6 @@
 Help
 ====
 
-If all else fails, contact: cfluke@swin.edu.au
+This early release of allskyVR has been tested on Mac OS X 10.11 (El Capitan).
 
-Need more help?
-^^^^^^^^^^^^^^^
-
-Bad luck..
+For more information about the project, please contact: cfluke@swin.edu.au
