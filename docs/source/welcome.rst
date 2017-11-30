@@ -19,26 +19,32 @@ Quickstart
 The Quickstart versions works on Linux and MacOSX operating systems.  It requires a C compiler (gcc or cc).
 
 1. Navigate to the Github repository: https://github.com/cfluke/allskyVR
-2. Download and expand the zip file and move to the directory of your choice
-3. Change into the allskyVR directory and execute the deploy script from the command line: <tt>deploy.csh</tt>
-4. Create the sample VR environment: <tt>allskyVR -i exoplanets.csv -f format.txt</tt>
-5. Transfer the export directory, <tt>VR-allsky</tt>, to a web server
-6. Open your web browser, navigate to the export directory, and view <tt>index.html</tt>
+2. Download and expand the zip file
+3. Change into the *allskyVR* directory and execute the deploy script from the command line: <tt>deploy.csh</tt>
+4. Create the sample VR environment: *allskyVR -i exoplanets.csv -f format.txt*
+5. Transfer the export directory, *VR-allsky*, to a web server
+6. Open your web browser, navigate to the export directory, and view *index.html*
 
 You are now ready to explore your all-sky data with your personal head-mounted display.
 
 Fully Customisable
 ^^^^^^^^^^^^^^^^^^
 
-The Fully Customisable version requires a working installation of <a href="https://github.com/mivp/s2plot" target=_NEW>s2plot</a> (Version 3.4.0 or higher).  Please see the <tt>s2plot</tt> repository for installation notes, including the required environment variables.  
+The Fully Customisable version requires a working installation of S2PLOT (https://github.com/mivp/s2plot; Version 3.4.0 or higher).  Please see the *S2PLOT* repository for installation notes, including the required environment variables.  
 
-The *allskyVR* source code is written in C.  The preferred starting point is to modify and use the <tt>templateSpherical.c</tt> code. 
+The *allskyVR* source code is written in C.  The preferred starting point is to modify and use the *templateSpherical.c* code. 
 
-Before executing, set the following two <tt>s2plot</tt> environment variables to the same value (example uses tcsh <tt>setenv</tt> commands).  Choose a pixel size that is as large as possible for your display:
+Before executing, set the following two *S2PLOT* environment variables to the same value (the example uses tcsh *setenv* commands).  Choose a pixel size that is as large as possible for your display:
 
-<tt>setenv S2PLOT_WIDTH 800</tt>
+    setenv S2PLOT_WIDTH 800
+    setenv S2PLOT_HEIGHT 800
+    
+Build and execute the *templateSpherical.c* example code:
 
-<tt>setenv S2PLOT_HEIGHT 800</tt>
+    us2build.csh templateSpherical
+    templateSpherical -i exoplanets.csv -f format.txt
+    
+ 
 
 
 Creating your own data file
