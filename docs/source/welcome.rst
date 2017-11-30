@@ -18,7 +18,7 @@ Quickstart
 
 The Quickstart versions works on Linux and MacOSX operating systems.  It requires a C compiler (gcc or cc).
 
-1. Navigate to the Github repository: <https://github.com/cfluke/allskyVR>
+1. Navigate to the Github repository: https://github.com/cfluke/allskyVR
 2. Download and expand the zip file
 3. Change into the *allskyVR* directory and execute the deploy script from the command line: <tt>deploy.csh</tt>
 4. Create the sample VR environment: *allskyVR -i exoplanets.csv -f format.txt*
