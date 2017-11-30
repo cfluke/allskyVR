@@ -1,14 +1,16 @@
 Getting started
 ===============
-Immersive virtual reality experiences for all-sky astronomical data.
+
+*Immersive virtual reality experiences for all-sky astronomical data.*
 
 To see an example in action:
-- Using a WebGL compatible browswer, navigate to https://astronomy.swin.edu.au/~cfluke/vr/webundle/ on your smartphone
-- Tap the Google Cardboard icon in the lower right of the screen
-- Place your smartphone into a Google Cardboard viewer
-- Navigation: turn your head to see the celestial sphere around you.
-- Menu: turn your head to look for the Menu icon.  Line up the green circular target, and hold your gaze steady.  The menu will expand.
-- Selection: to toggle visibility of a data category or the celestial coordinate system, line-up the reticule on the menu item and hold your gaze steady.
+
+* Using a WebGL compatible browswer, navigate to https://astronomy.swin.edu.au/~cfluke/vr/webundle/ on your smartphone
+* Tap the Google Cardboard icon in the lower right of the screen
+* Place your smartphone into a Google Cardboard viewer
+* Navigation: turn your head to see the celestial sphere around you.
+* Menu: turn your head to look for the Menu icon.  Line up the green circular target, and hold your gaze steady.  The menu will expand.
+* Selection: to toggle visibility of a data category or the celestial coordinate system, line-up the reticule on the menu item and hold your gaze steady.
 
 
 Quickstart
@@ -16,8 +18,8 @@ Quickstart
 
 The Quickstart versions works on Linux and MacOSX operating systems.  It requires a C compiler (gcc or cc).
 
-1. Download the contents of the allskyVR repository
-2. Expand the zip file and move to the directory of your choice
+1. Navigate to the Github repository: https://github.com/cfluke/allskyVR
+2. Download and expand the zip file and move to the directory of your choice
 3. Change into the allskyVR directory and execute the deploy script from the command line: <tt>deploy.csh</tt>
 4. Create the sample VR environment: <tt>allskyVR -i exoplanets.csv -f format.txt</tt>
 5. Transfer the export directory, <tt>VR-allsky</tt>, to a web server
@@ -30,7 +32,7 @@ Fully Customisable
 
 The Fully Customisable version requires a working installation of <a href="https://github.com/mivp/s2plot" target=_NEW>s2plot</a> (Version 3.4.0 or higher).  Please see the <tt>s2plot</tt> repository for installation notes, including the required environment variables.  
 
-The <tt>allskyVR</tt> source code is written in C.  The preferred starting point is to modify and use the <tt>templateSpherical.c</tt> code. 
+The *allskyVR* source code is written in C.  The preferred starting point is to modify and use the <tt>templateSpherical.c</tt> code. 
 
 Before executing, set the following two <tt>s2plot</tt> environment variables to the same value (example uses tcsh <tt>setenv</tt> commands).  Choose a pixel size that is as large as possible for your display:
 
