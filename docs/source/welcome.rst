@@ -28,7 +28,7 @@ The Quickstart versions works on Linux and MacOSX operating systems.  It require
 
     allskyVR -i exoplanets.csv -f format.txt
 
-5. Transfer the export directory, *VR-allsky*, to a web server
+5. Transfer the export directory, *VR-allsky*, to a web server (see Troubleshooting section below)
 6. Open your web browser, navigate to the export directory, and view *index.html*
 
 You are now ready to explore your all-sky data with your personal head-mounted display.
@@ -86,5 +86,6 @@ For best visual quality, we recommended the use of colour choosing resources suc
 Troubleshooting
 ^^^^^^^^^^^^^^^
 
-* Can't navigate? You may need to active WebGL in your browser.  For information on supported browsers see: https://get.webgl.org/get-a-webgl-implementation/
+* *Can't navigate?* You may need to active WebGL in your browser.  For information on supported browsers see: https://get.webgl.org/get-a-webgl-implementation/
 
+* *Don't have access to a web service?* A number of free website hosting services exist, but may not always be suitable for continous live operation without purchasing or upgrading an existing account.  One option is http://000webhost.com, which offers support for PHP and mySQL.  On signing in, create a web-site that will hold your *allskyVR* assets.  Upload all of the files containd in the export *VR-allskyVR* directory, and you should be able to view in a WebGL compatible browswer.  See the example at https://allskyvr.000webhostapp.com
