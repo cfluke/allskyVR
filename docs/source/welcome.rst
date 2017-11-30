@@ -3,14 +3,14 @@ Getting started
 
 *Immersive virtual reality experiences for all-sky astronomical data.*
 
-To see an example in action:
+To see an example in action using a Google Cardboard viewer:
 
 * Using a WebGL compatible browswer, navigate to https://astronomy.swin.edu.au/~cfluke/vr/webundle/ on your smartphone
 * Tap the Google Cardboard icon in the lower right of the screen
 * Place your smartphone into a Google Cardboard viewer
-* Navigation: turn your head to see the celestial sphere around you.
-* Menu: turn your head to look for the Menu icon.  Line up the green circular target, and hold your gaze steady.  The menu will expand.
-* Selection: to toggle visibility of a data category or the celestial coordinate system, line-up the reticule on the menu item and hold your gaze steady.
+* **Navigation**: turn your head to see the celestial sphere around you.
+* **Menu**: turn your head to look for the Menu icon.  Line up the green circular target, and hold your gaze steady.  The menu will expand.
+* **Selection**: to toggle visibility of a data category or the celestial coordinate system, line-up the reticule on the menu item and hold your gaze steady.
 
 
 Quickstart
@@ -19,9 +19,15 @@ Quickstart
 The Quickstart versions works on Linux and MacOSX operating systems.  It requires a C compiler (gcc or cc).
 
 1. Navigate to the Github repository: https://github.com/cfluke/allskyVR
-2. Download and expand the zip file
-3. Change into the *allskyVR* directory and execute the deploy script from the command line: <tt>deploy.csh</tt>
-4. Create the sample VR environment: *allskyVR -i exoplanets.csv -f format.txt*
+2. Select *Clone or download*, then downland and expand the ZIP file
+3. Change into the *allskyVR* directory and execute the deploy script from the command line: 
+
+    deploy.csh
+
+4. Create the sample VR environment: 
+
+    allskyVR -i exoplanets.csv -f format.txt
+
 5. Transfer the export directory, *VR-allsky*, to a web server
 6. Open your web browser, navigate to the export directory, and view *index.html*
 
