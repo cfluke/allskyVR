@@ -18,7 +18,7 @@ Quickstart
 
 The Quickstart versions works on Linux and MacOSX operating systems.  It requires a C compiler (gcc or cc).
 
-1. Navigate to the Github repository: https://github.com/cfluke/allskyVR
+1. Navigate to the Github repository: <https://github.com/cfluke/allskyVR>
 2. Download and expand the zip file
 3. Change into the *allskyVR* directory and execute the deploy script from the command line: <tt>deploy.csh</tt>
 4. Create the sample VR environment: *allskyVR -i exoplanets.csv -f format.txt*
@@ -30,7 +30,7 @@ You are now ready to explore your all-sky data with your personal head-mounted d
 Fully Customisable
 ^^^^^^^^^^^^^^^^^^
 
-The Fully Customisable version requires a working installation of S2PLOT (https://github.com/mivp/s2plot; Version 3.4.0 or higher).  Please see the *S2PLOT* repository for installation notes, including the required environment variables.  
+The Fully Customisable version requires a working installation of `S2PLOT <https://github.com/mivp/s2plot>`_ (Version 3.4.0 or higher).  Please see the *S2PLOT* repository for installation notes, including the required environment variables.  
 
 The *allskyVR* source code is written in C.  The preferred starting point is to modify and use the *templateSpherical.c* code. 
 
