@@ -1,24 +1,18 @@
 Getting started
 ===============
+Immersive virtual reality experiences for all-sky astronomical data.
 
-# allskyVR
+To see an example in action:
+- Using a WebGL compatible browswer, navigate to <a href="https://astronomy.swin.edu.au/~cfluke/vr/webundle/" target=_NEW>link</a> on your smartphone
+- Tap the Google Cardboard icon in the lower right of the screen
+- Place your smartphone into a Google Cardboard viewer
+- Navigation: turn your head to see the celestial sphere around you.
+- Menu: turn your head to look for the Menu icon.  Line up the green circular target, and hold your gaze steady.  The menu will expand.
+- Selection: to toggle visibility of a data category or the celestial coordinate system, line-up the reticule on the menu item and hold your gaze steady.
 
-<i>Immersive virtual reality experiences for all-sky astronomical data</i>
 
-Made with s2plot and A-Frame WebVR, <tt>allskyVR</tt> allows astronomers to immerse themselves in all-sky data.   
-
-The software requires a compatible smart phone and Google cardboard viewer or high-end consumer VR head-mounted display.
-
-To see an example in action: <a href="https://astronomy.swin.edu.au/~cfluke/vr/webundle/" target=_NEW>link</a>
-
-- <b>Navigation:</b> turn your head to see the celestial sphere around you.
-- <b>Menu:</b> look for the Menu icon, line up the green circular target, hold your gaze steady and the menu will expand.
-- <b>Selection:</b> to toggle visibility of a data category or the celestial coordinate system, line-up the reticule on the menu item and hold your gaze steady.
-
-For more information, please see the article: 
-Fluke, C.J., Barnes, D.G., in prep, <i>Immersive virtual reality experiences for all-sky data</i>
-
-# Quickstart
+Quickstart
+^^^^^^^^^^
 
 The Quickstart versions works on Linux and MacOSX operating systems.  It requires a C compiler (gcc or cc).
 
@@ -31,7 +25,8 @@ The Quickstart versions works on Linux and MacOSX operating systems.  It require
 
 You are now ready to explore your all-sky data with your personal head-mounted display.
 
-# Fully Customisable
+Fully Customisable
+^^^^^^^^^^^^^^^^^^
 
 The Fully Customisable version requires a working installation of <a href="https://github.com/mivp/s2plot" target=_NEW>s2plot</a> (Version 3.4.0 or higher).  Please see the <tt>s2plot</tt> repository for installation notes, including the required environment variables.  
 
@@ -44,7 +39,8 @@ Before executing, set the following two <tt>s2plot</tt> environment variables to
 <tt>setenv S2PLOT_HEIGHT 800</tt>
 
 
-# Creating your own data file
+Creating your own data file
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Now it is time to explore your own dataset.
 
@@ -59,7 +55,8 @@ Each celestial object is defined on a single line with the format:
   - Provide the relative scale factor, using value of 1 if you are not sure what to choose!
 2. Create your immersive environment: allsky -i yourdata.csv -f format.txt
 
-# Creating your own format file
+Creating your own format file
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The format file sets the colours that will be assigned to the different category index values.   The text file format, one item per line, is:
 
@@ -69,10 +66,8 @@ R,G,B are integer red, green, and blue colour index values in the range [0...255
  
 For best visual quality, we recommended the use of colour choosing resources such as the <a href="http://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3">ColorBrewer 2.0</a>.
 
-# Troubleshooting
+Troubleshooting
+^^^^^^^^^^^^^^^
 
 - Can't navigate? You may need to active WebGL in your browser.  For information on supported browsers see: https://get.webgl.org/get-a-webgl-implementation/
 
-# Version History
-
-The initial commit of <tt>allskyVR</tt> contains minimal inline comments.  The emphasis has been on getting a working system available for testing.
