@@ -19,17 +19,21 @@ Quickstart
 The Quickstart versions works on Linux and MacOSX operating systems.  It requires a C compiler (gcc or cc).
 
 1. Navigate to the Github repository: https://github.com/cfluke/allskyVR
-2. Select *Clone or download*, then downland and expand the ZIP file
-3. Change into the *allskyVR* directory and execute the deploy script from the command line: 
+2. Select *Clone or download*, then downland and expand the ZIP file 
+3. Change into the *allskyVR* directory and ensure that permissions are set correctly on the scripts:
+
+    chmod 744 *.csh
+      
+4. Execute the deploy script from the command line: 
 
     deploy.csh
 
-4. Create the sample VR environment: 
+5. Create the sample VR environment: 
 
     allskyVR -i exoplanets.csv -f format.txt
 
-5. Transfer the export directory, *VR-allsky*, to a web server (see Troubleshooting section below)
-6. Open your web browser, navigate to the export directory, and view *index.html*
+6. Transfer the export directory, *VR-allsky*, to a web server (see Troubleshooting section below)
+7. Open your web browser, navigate to the export directory, and view *index.html*
 
 You are now ready to explore your all-sky data with your personal head-mounted display.
 
