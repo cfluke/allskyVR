@@ -60,8 +60,8 @@ then press **Shift-V** to commence the VR asset export.
 
 
 
-Creating your own data file
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Creating your own data file and format file
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Now it is time to explore your own dataset.
 
@@ -73,20 +73,26 @@ Each celestial object is defined on a single line with the format:
 * Celestial coordinates are in decimal degrees
 * For an all-sky view set the Radius to 1
 * Assign a category index number in the range [1..10]
-* Provide the relative scale factor, using value of 1 if you are not sure what to choose!
+* Provide the relative scale factor for each object, using value of 1 if you are not sure what to choose!
 
-2. Create your immersive environment: allsky -i yourdata.csv -f format.txt
-
-Creating your own format file
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-The format file sets the colours that will be assigned to the different category index values.   The text file format, one item per line, is:
+2. The format file sets the colours that will be assigned to the different category index values.   The text file format, one item per line, is:
 
     CAT=R,G,B,Label
     
-R,G,B are integer red, green, and blue colour index values in the range [0...255], and <tt>Label</tt> is a short text-only label to appear in the A-Frame menu item.   It is necessary to avoid spaces and some symbols that have special meanings in LaTeX (e.g. $ and _ ).  The Label is ignored in Quickstart mode - customisation can be performed by creating relevant textures in appropriate graphics package.
+R,G,B are integer red, green, and blue colour index values in the range [0...255], and *Label* is a short text-only label to appear in the A-Frame menu item.   It is necessary to avoid spaces and some symbols that have special meanings in LaTeX (e.g. $ and _ ).  The Label is ignored in Quickstart mode - customisation can be performed by creating relevant textures in appropriate graphics package.
  
 For best visual quality, we recommended the use of colour choosing resources such as the `ColorBrewer <http://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3">`_.
+
+The number of entries in the format file *must* match the number of category indices assigned in the data file.
+
+2. Create your immersive environment using the quickstart mode: 
+
+    allskyVR -i yourdata.csv -f yourformat.txt
+    
+or in fully customisable mode:
+
+    templateSpherical -i youdata.csv -f yourformat.txt
+
 
 Troubleshooting
 ^^^^^^^^^^^^^^^
