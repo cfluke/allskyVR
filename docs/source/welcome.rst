@@ -79,7 +79,7 @@ Each celestial object is defined on a separate line with the format:
 
     CAT=R,G,B,Label
     
-*R*,*G*, and *B* are integer red, green, and blue colour index values in the range [0...255], and *Label* is a short text-only label to appear in the A-Frame menu item.   It is necessary to avoid spaces and some symbols that have special meanings in LaTeX (e.g. $ and _ ).  The Label is ignored in Quickstart mode - customisation can be performed by creating relevant textures in an appropriate graphics package.
+*R* , *G* , and *B* are integer red, green, and blue colour index values in the range [0...255], and *Label* is a short text-only label to appear in the A-Frame menu item.   It is necessary to avoid spaces and some symbols that have special meanings in LaTeX (e.g. $ and _ ).  The Label is ignored in Quickstart mode - customisation can be performed by creating relevant textures in an appropriate graphics package.
  
 For best visual quality, we recommended the use of colour choosing resources such as the `ColorBrewer <http://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3">`_.
 
