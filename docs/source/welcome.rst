@@ -85,7 +85,7 @@ For best visual quality, we recommended the use of colour choosing resources suc
 
 The number of entries in the format file *must* match the number of category indices assigned in the data file.
 
-2. Create your immersive environment using the quickstart mode: 
+3. Create your immersive environment using the quickstart mode: 
 
     allskyVR -i yourdata.csv -f yourformat.txt
     
