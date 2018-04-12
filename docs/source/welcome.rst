@@ -13,6 +13,7 @@ To see an example in action using a Google Cardboard viewer:
 * **Selection**: to toggle visibility of a data category or the celestial coordinate system, line-up the reticule on the menu item and hold your gaze steady.
 
 To exit the VR experience, you may need to either:
+
 * Remove your smartphone from the Google Cardboard viewer, and tap the X icon (if visible) on the top-left corner
 * Tap the "back" button on your smartphone, which should return to the web-browser
 
