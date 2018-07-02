@@ -22,3 +22,9 @@ Please refer to http://allskyvr.readthedocs.io for information on using the Quic
 # Version History
 
 The initial commit of <tt>allskyVR</tt> contains minimal inline comments.  The emphasis has been on getting a working system available for testing.
+
+# Related Publications
+
+If you find <tt>allskyVR</tt> to be helpful to you, we would appreciate a citation to our publication:
+
+Fluke, C.J., Barnes, D.G., 2017, Immersive Virtual Reality Experiences for All-Sky Data, Publications of the Astronomical Society of Australia, 35, e026 <a href="https://doi.org/10.1017/pasa.2018.19">https://doi.org/10.1017/pasa.2018.19</a>
