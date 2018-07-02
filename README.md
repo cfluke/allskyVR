@@ -12,8 +12,11 @@ To see an example in action: <a href="https://astronomy.swin.edu.au/~cfluke/vr/w
 - <b>Menu:</b> look for the Menu icon, line up the green circular target, hold your gaze steady and the menu will expand.
 - <b>Selection:</b> to toggle visibility of a data category or the celestial coordinate system, line-up the reticule on the menu item and hold your gaze steady.
 
-For more information, please see the article: 
-Fluke, C.J., Barnes, D.G., in prep, <i>Immersive virtual reality experiences for all-sky data</i>
+# Related Publications
+
+If you find <tt>allskyVR</tt> to be helpful to you, we would appreciate a citation to our publication:
+
+Fluke, C.J., Barnes, D.G., 2017, Immersive Virtual Reality Experiences for All-Sky Data, Publications of the Astronomical Society of Australia, 35, e026 <a href="https://doi.org/10.1017/pasa.2018.19">https://doi.org/10.1017/pasa.2018.19</a>
 
 # Documentation
 
@@ -22,9 +25,3 @@ Please refer to http://allskyvr.readthedocs.io for information on using the Quic
 # Version History
 
 The initial commit of <tt>allskyVR</tt> contains minimal inline comments.  The emphasis has been on getting a working system available for testing.
-
-# Related Publications
-
-If you find <tt>allskyVR</tt> to be helpful to you, we would appreciate a citation to our publication:
-
-Fluke, C.J., Barnes, D.G., 2017, Immersive Virtual Reality Experiences for All-Sky Data, Publications of the Astronomical Society of Australia, 35, e026 <a href="https://doi.org/10.1017/pasa.2018.19">https://doi.org/10.1017/pasa.2018.19</a>
